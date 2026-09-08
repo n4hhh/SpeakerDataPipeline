@@ -1,0 +1,5 @@
+# CPU-only runtime dependencies for Python 3.10+
+numpy>=1.24,<3
+scipy>=1.10,<2
+soundfile>=0.12,<1
+webrtcvad-wheels>=2.0.14,<3

@@ -1,0 +1,46 @@
+# Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Test, type-checker, and linter caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors and machine-local settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Temporary and log files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+# Local datasets and generated outputs
+outputs/
+data/
+datasets/
+processed_data/
+
+# Locally generated audio
+*.wav
+*.flac
+*.mp3
+
+# Large archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db

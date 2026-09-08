@@ -1,0 +1,14 @@
+# Documentation for the implemented CLI configuration values.
+# The current CLIs are argument-driven and do not load this YAML file.
+
+input_root: 'D:\datasets\example_dataset'
+output_root: 'D:\datasets\example_dataset_processed'
+target_sample_rate: 16000
+target_channels: 1
+target_duration_seconds: 3.0
+seed: 2026
+vad_aggressiveness: 1
+vad_frame_ms: 30
+candidate_quality_ratio: 0.95
+workers: 8
+resume: false
